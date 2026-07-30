@@ -1,0 +1,156 @@
+{
+  "android_frp": {
+    "android_7": {
+      "methods": ["talkback_bypass", "keyboard_bypass", "emergency_call"],
+      "cve": ["CVE-2017-0807", "CVE-2017-13286"],
+      "tools": ["frp_bypass_7.apk", "samsung_frp_tool.apk"]
+    },
+    "android_8": {
+      "methods": ["chrome_bypass", "wifi_login_bypass", "setup_wizard_crash"],
+      "cve": ["CVE-2018-9489", "CVE-2018-9539"],
+      "tools": ["frp_8_tool.apk", "quick_shortcut_maker.apk"]
+    },
+    "android_9": {
+      "methods": ["talkback_gesture", "select_to_speak", "multi_window"],
+      "cve": ["CVE-2019-2107", "CVE-2019-2215"],
+      "tools": ["frp_9_bypass.apk", "test_dpc.apk"]
+    },
+    "android_10": {
+      "methods": ["accessibility_menu", "google_assistant", "live_transcribe"],
+      "cve": ["CVE-2020-0069", "CVE-2020-0188"],
+      "tools": ["android_10_frp.apk", "alliance_shield.apk"]
+    },
+    "android_11": {
+      "methods": ["split_screen", "recent_apps", "notification_panel"],
+      "cve": ["CVE-2021-0302", "CVE-2021-0395"],
+      "tools": ["frp_11_tool.apk", "activity_launcher.apk"]
+    },
+    "android_12": {
+      "methods": ["accessibility_suite", "device_controls", "game_dashboard"],
+      "cve": ["CVE-2022-2004", "CVE-2022-20210"],
+      "tools": ["frp_12_bypass.apk", "sam_helper.apk"]
+    },
+    "android_13": {
+      "methods": ["peripheral_manager", "app_pairs", "cross_device"],
+      "cve": ["CVE-2023-20915", "CVE-2023-21626"],
+      "tools": ["frp_13_tool.apk", "samsung_frp_2023.apk"]
+    },
+    "android_14": {
+      "methods": ["lock_screen_widgets", "ultra_hdr", "ai_wallpaper"],
+      "cve": ["CVE-2024-0012", "CVE-2024-0044"],
+      "tools": ["frp_14_bypass.apk"]
+    },
+    "android_15": {
+      "methods": ["private_space", "app_pairs_enhanced"],
+      "cve": ["CVE-2024-29745"],
+      "tools": ["frp_15_beta.apk"]
+    },
+    "android_16": {
+      "methods": ["advanced_bypass_technique"],
+      "cve": ["CVE-2025-0001"],
+      "tools": ["frp_16_experimental.apk"]
+    }
+  },
+  "ios_bypass": {
+    "ios_7": {
+      "methods": ["jailbreak_tethered", "ssh_ramdisk"],
+      "tools": ["evasi0n7", "p0sixspwn", "geeksn0w"],
+      "chipsets": ["A4", "A5", "A6"]
+    },
+    "ios_8": {
+      "methods": ["taig_jailbreak", "pp_jailbreak"],
+      "tools": ["TaiG", "PPJailbreak", "checkra1n_legacy"],
+      "chipsets": ["A5", "A6", "A7"]
+    },
+    "ios_9": {
+      "methods": ["pangu_jailbreak", "checkra1n_compatible"],
+      "tools": ["Pangu9", "checkra1n_0.12", "Sliver"],
+      "chipsets": ["A5", "A6", "A7", "A8", "A9"]
+    },
+    "ios_10": {
+      "methods": ["checkra1n_bypass", "iclock_bypass", "ssh_ramdisk_v2"],
+      "tools": ["checkra1n", "Sliver", "iSkip", "iBypasser"],
+      "chipsets": ["A5", "A6", "A7", "A8", "A9", "A10"]
+    },
+    "ios_11": {
+      "methods": ["checkra1n_sshrd", "minacriss_bypass"],
+      "tools": ["checkra1n", "Sliver", "minaUSB", "iRemovalPro"],
+      "chipsets": ["A7", "A8", "A9", "A10", "A11"]
+    },
+    "ios_12": {
+      "methods": ["checkra1n_full", "ramdisk_icloud_bypass"],
+      "tools": ["checkra1n", "Sliver", "FRPFILE", "iBypassSignal"],
+      "chipsets": ["A7", "A8", "A9", "A10", "A11", "A12"]
+    },
+    "ios_13": {
+      "methods": ["checkra1n_signal_bypass", "tethered_bypass"],
+      "tools": ["checkra1n", "Sliver", "iRemovalPro", "UnlockTool"],
+      "chipsets": ["A7", "A8", "A9", "A10", "A11"]
+    },
+    "ios_14": {
+      "methods": ["checkra1n_full_bypass", "f3arra1n", "signal_bypass"],
+      "tools": ["checkra1n", "Sliver", "f3arra1n", "iRemovalPro"],
+      "chipsets": ["A7", "A8", "A9", "A10", "A11"]
+    },
+    "ios_15": {
+      "methods": ["palera1n_bypass", "checkra1n_modded"],
+      "tools": ["palera1n", "checkra1n_mod", "iRemovalPro"],
+      "chipsets": ["A8", "A9", "A10", "A11"]
+    },
+    "ios_16": {
+      "methods": ["palera1n_rootless", "checkra1n_trollstore"],
+      "tools": ["palera1n", "TrollStore", "iBypassSignal"],
+      "chipsets": ["A8", "A9", "A10", "A11"]
+    },
+    "ios_17": {
+      "methods": ["palera1n_experimental", "trollstore_mdc"],
+      "tools": ["palera1n", "TrollStore", "PureKFD"],
+      "chipsets": ["A8", "A9", "A10", "A11"]
+    },
+    "ios_18": {
+      "methods": ["sparserestore_bypass", "nugget_exploit"],
+      "tools": ["SparseRestore", "Nugget", "palera1n_mod"],
+      "chipsets": ["A9", "A10", "A11"]
+    },
+    "ios_19": {
+      "methods": ["trollstore_v2", "coretrust_bypass"],
+      "tools": ["TrollStore", "CoreTrustBypass"],
+      "chipsets": ["A10", "A11", "A12"]
+    },
+    "ios_20": {
+      "methods": ["mdc_bypass", "kfd_exploit"],
+      "tools": ["MDC", "KFDExploit", "PureKFD"],
+      "chipsets": ["A10", "A11", "A12", "A13"]
+    },
+    "ios_21": {
+      "methods": ["dopamine_bypass", "xina_bypass"],
+      "tools": ["Dopamine", "XinaA15", "iRemovalPro"],
+      "chipsets": ["A12", "A13", "A14", "A15"]
+    },
+    "ios_22": {
+      "methods": ["serotonin_bypass", "rootless_jb"],
+      "tools": ["Serotonin", "Bootstrap", "iSkip"],
+      "chipsets": ["A12", "A13", "A14", "A15", "A16"]
+    },
+    "ios_23": {
+      "methods": ["nathanlr_bypass", "arm64e_exploit"],
+      "tools": ["NathanLR", "iRemovalProX", "Checkm8Extended"],
+      "chipsets": ["A12", "A13", "A14", "A15", "A16", "A17"]
+    },
+    "ios_24": {
+      "methods": ["sileo_bypass", "procursus_exploit"],
+      "tools": ["SileoNightly", "ProcursusX", "UnlockToolPro"],
+      "chipsets": ["A14", "A15", "A16", "A17"]
+    },
+    "ios_25": {
+      "methods": ["rootful_bypass", "jailbreakd_exploit"],
+      "tools": ["RootfulJB", "iBypasserUltra", "iRemovalProPlus"],
+      "chipsets": ["A15", "A16", "A17", "A18"]
+    },
+    "ios_26": {
+      "methods": ["bootrom_exploit", "iboot_bypass"],
+      "tools": ["Checkm8V2", "palera1nPro", "iSkipUltra"],
+      "chipsets": ["A16", "A17", "A18", "A19"]
+    }
+  }
+}
