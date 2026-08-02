@@ -1,0 +1,8 @@
+requests
+colorama
+python-dotenv
+pyusb
+pyserial
+requests
+colorama
+python-dotenv
